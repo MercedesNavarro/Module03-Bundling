@@ -1,0 +1,28 @@
+$secondary-color: rgb(37, 37, 46);
+$special-color: rgb(255, 83, 83);
+
+body {
+    background-color: $secondary-color;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1#main, h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        padding: 20px 5px;
+    }
+
+    h2 {
+        color: #3fa73f;
+    }
+}
+
+.special {
+    color: $special-color;
+    font: {
+        family: "Times New Roman";
+        weight: 400;
+    }
+}
