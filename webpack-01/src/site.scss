@@ -1,0 +1,22 @@
+$primary-color: #dd681b;
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: $primary-color;
+    font: {
+        size: 1.5rem;
+        family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    text-transform: capitalize;
+}
+
+div:global(#logo) img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
